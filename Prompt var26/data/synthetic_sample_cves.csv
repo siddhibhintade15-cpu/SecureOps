@@ -1,0 +1,29 @@
+cve_id,asset_name,vulnerability_title,cvss_score,asset_criticality,internet_exposed,epss_score,cisa_kev,exploit_evidence,remediation_effort_hours,maintenance_window,patch_available,remediation_cost_est
+CVE-2021-44228,Prod-Payment-Gateway-01,Apache Log4j2 JNDI Remote Code Execution (Log4Shell),10.0,Critical,True,0.975,True,Active,4.0,Emergency,True,800.0
+CVE-2023-34362,Edge-SFTP-FileTransfer,MOVEit Transfer SQL Injection to Remote Code Execution,9.8,Critical,True,0.962,True,Active,3.5,Emergency,True,700.0
+CVE-2023-22515,Corp-Wiki-Confluence,Atlassian Confluence Broken Access Control & Privilege Escalation,10.0,High,True,0.941,True,Active,2.5,Off-Hours,True,450.0
+CVE-2023-44487,Public-ReverseProxy-Nginx,HTTP/2 Rapid Reset Denial of Service Vulnerability,7.5,High,True,0.628,True,Active,2.0,Off-Hours,True,300.0
+CVE-2022-22965,Core-Banking-APIServer,Spring Framework Spring4Shell Remote Code Execution,9.8,Critical,False,0.82,True,Weaponized,8.0,Weekend,True,1200.0
+CVE-2021-3156,DevSecOps-Bastion-Host,Sudo Baron Samedit Local Privilege Escalation Heap Overflow,7.8,High,False,0.435,True,Weaponized,1.5,Off-Hours,True,225.0
+CVE-2022-3602,Auth-Cluster-K8s-Node3,OpenSSL 3.0 X.509 Email Address Buffer Overrun,7.5,Medium,False,0.15,False,PoC,3.0,Off-Hours,True,375.0
+CVE-2023-38606,Internal-GitLab-Server,Kernel Memory Corruption via Gaps State Manipulation,7.0,Medium,False,0.082,False,PoC,6.0,Weekend,True,750.0
+CVE-2024-21413,Exec-Workstations-Fleet,Microsoft Outlook Moniker Link Remote Code Execution Flaw,9.8,High,False,0.715,True,Weaponized,5.0,Off-Hours,True,625.0
+CVE-2023-28252,Domain-Controller-Primary,Windows Common Log File System (CLFS) Privilege Escalation,7.8,Critical,False,0.612,True,Active,4.0,Weekend,True,900.0
+CVE-2023-24489,Citrix-StoreFront-Portal,Citrix ADC / Gateway Unauthenticated Cryptographic Padding Bypass,9.1,High,True,0.884,True,Active,2.0,Emergency,True,350.0
+CVE-2023-3519,Citrix-NetScaler-DMZ,NetScaler ADC and Gateway Remote Code Execution,9.8,Critical,True,0.94,True,Active,3.0,Emergency,True,600.0
+CVE-2023-46604,Message-Queue-ActiveMQ,Apache ActiveMQ OpenWire Protocol Remote Code Execution,9.8,Medium,False,0.795,True,Active,3.0,Off-Hours,True,450.0
+CVE-2023-20198,Branch-Cisco-Router-01,Cisco IOS XE Web UI Privilege Escalation,10.0,High,True,0.925,True,Active,2.5,Emergency,True,400.0
+CVE-2024-3400,PaloAlto-GlobalProtect-FW,Palo Alto Networks PAN-OS GlobalProtect Command Injection,10.0,Critical,True,0.96,True,Active,3.0,Emergency,True,750.0
+CVE-2022-26134,Staging-Confluence-Test,Atlassian Confluence OGNL Injection Remote Code Execution,9.8,Medium,False,0.812,True,Weaponized,2.0,Off-Hours,True,250.0
+CVE-2021-26855,Corp-Mail-Exchange-01,Microsoft Exchange Server SSRF (Proxylogon),9.8,Critical,True,0.95,True,Active,6.0,Weekend,True,1100.0
+CVE-2023-27997,VPN-Gateway-FortiGate,Fortinet FortiOS SSL-VPN Heap-Based Buffer Overflow,9.8,Critical,True,0.93,True,Active,2.5,Emergency,True,550.0
+CVE-2023-4911,Analytics-Cluster-Master,GNU C Library (glibc) dynamic loader buffer overflow (Looney Tunables),7.8,High,False,0.38,True,Weaponized,3.0,Weekend,True,450.0
+CVE-2024-1709,IT-Support-ConnectWise,ConnectWise ScreenConnect Authentication Bypass Flaw,10.0,High,True,0.955,True,Active,2.0,Emergency,True,350.0
+CVE-2023-29336,Workstation-Finance-08,Win32k Elevation of Privilege Vulnerability,7.8,Medium,False,0.21,True,Weaponized,1.5,Off-Hours,True,200.0
+CVE-2022-41082,Legacy-Hybrid-Exchange,Microsoft Exchange PowerShell Backend RCE (ProxyNotShell),8.8,High,False,0.67,True,Active,7.0,Weekend,True,1050.0
+CVE-2023-21716,Marketing-Laptops-Pool,Microsoft Word RTF Font Parsing Remote Code Execution,9.8,Low,False,0.45,False,PoC,2.0,Anytime,True,180.0
+CVE-2023-3824,Internal-Doc-PHP-Server,PHP Buffer Underflow in phar_dir_read Function,6.5,Low,False,0.045,False,PoC,1.5,Anytime,True,150.0
+CVE-2022-3786,Internal-Microservice-Auth,OpenSSL Punycode Buffer Overflow X.509 Parsing,6.5,Medium,False,0.038,False,None,2.0,Off-Hours,True,250.0
+CVE-2023-36884,Sales-Workstations-Fleet,Office and Windows HTML Remote Code Execution Vulnerability,8.3,Medium,False,0.512,True,Active,4.0,Off-Hours,True,500.0
+CVE-2024-20656,Legacy-Win7-PrintServer,Visual Studio Information Disclosure Vulnerability,4.3,Low,False,0.012,False,None,1.0,Anytime,False,100.0
+CVE-2023-4863,Customer-Portal-Chromium,libwebp Heap Buffer Overflow in WebP Image Processing,8.8,High,True,0.89,True,Active,1.5,Emergency,True,250.0
